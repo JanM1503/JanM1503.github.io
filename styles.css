@@ -483,3 +483,81 @@ footer .footer-top{margin-bottom:16px;}
     margin-left: 0;
   }
 }
+
+
+
+/* ===================== */
+/* Responsive Fixes 2025 */
+/* ===================== */
+
+/* Make all images scale down on small screens */
+img, video {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Header: keep logo from making header too tall on phones */
+.brand-logo {
+  height: auto;
+  width: 120px;
+}
+@media (max-width: 768px) {
+  .brand-logo {
+    width: auto;
+    height: 48px;
+  }
+  .header-inner {
+    padding: 10px 0;
+  }
+  .nav-list {
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+}
+
+/* Hero image: avoid fixed px sizes */
+.hero-logo-img {
+  width: min(100%, 380px);
+  height: auto;
+}
+@media (max-width: 768px) {
+  .hero-grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+  .hero-title {
+    font-size: 2rem;
+    line-height: 1.2;
+  }
+}
+
+/* Service/media blocks: ensure media stays within container */
+.service-media img,
+.service-media video {
+  width: 100%;
+  height: auto;
+}
+
+/* Avoid horizontal overflow from long links/buttons */
+.container {
+  overflow-wrap: anywhere;
+}
+
+/* Tables / lists are allowed to wrap */
+ul, ol {
+  overflow-wrap: anywhere;
+}
+
+/* Footer logos scale */
+.footer-brand img,
+.footer-logo img {
+  height: auto;
+  max-height: 60px;
+  width: auto;
+}
+@media (max-width: 480px) {
+  .footer-brand img,
+  .footer-logo img {
+    max-height: 48px;
+  }
+}
