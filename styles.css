@@ -216,6 +216,11 @@ section{padding:80px 0;}
 
 /* CTA button styling */
 .button, .btn, .cta-button{
+  white-space: nowrap;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 60px;
   background: linear-gradient(135deg,#005a9c,#007acc);
   color:#fff;
   padding:14px 28px;
@@ -232,6 +237,11 @@ section{padding:80px 0;}
 
 /* === Updated CTA buttons with rounded pill shape and arrow === */
 .button, .btn, .cta-button{
+  white-space: nowrap;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 60px;
   background: linear-gradient(135deg,#005a9c,#007acc);
   color:#fff;
   padding:14px 32px 14px 28px;
@@ -559,5 +569,14 @@ ul, ol {
   .footer-brand img,
   .footer-logo img {
     max-height: 48px;
+  }
+}
+
+
+/* Fix: Sprachumschalter DE/EN auf Mobile */
+@media (max-width: 600px) {
+  .button, .btn, .cta-button {
+    min-width: 80px;
+    font-size: 16px;
   }
 }
