@@ -1,11 +1,11 @@
 (function(){
   const dict = {
     de: {
-      'nav.home':'Start','nav.about':'Über','nav.services':'Leistungen','nav.contact':'Kontakt','nav.imprint':'Impressum','nav.privacy':'Datenschutz',
+      'nav.home':'Start','nav.about':'Über uns','nav.services':'Leistungen','nav.contact':'Kontakt','nav.imprint':'Impressum','nav.privacy':'Datenschutz',
       'hero.title':'Transformation neu gedacht',
-      'hero.text':'Ihre Vision ist uns wichtig. Wir arbeiten Ihre Bedürfnisse klar heraus und liefern passgenaue Lösungen. Mit einer einzigartigen Kombination aus strategischem Denken und über 30 Jahren Erfahrung in der Unternehmensberatung unterstützen wir Sie bei komplexen Transformationen - pragmatisch, kreativ und mit messbaren Ergebnissen. Wir glauben, dass Transformationen nur dann erfolgreich sind, wenn sie von Menschen getragen werden. Deshalb stellen wir den Menschen ins Zentrum - mit Empathie, Klarheit und Partizipation. Transformation neu gedacht heißt für uns: weniger PowerPoint, mehr Menschen. Weniger Theorie, mehr gemeinsames Machen.',
+      'hero.text':'Ihre Vision ist uns wichtig. Wir arbeiten Ihre Bedürfnisse klar heraus und liefern passgenaue Lösungen. Mit einer einzigartigen Kombination aus strategischem Denken und 30 Jahren Erfahrung in der Unternehmensberatung unterstützen wir Sie bei komplexen Transformationen - pragmatisch, kreativ und mit messbaren Ergebnissen. Wir glauben, dass Transformationen nur dann erfolgreich sind, wenn sie von Menschen getragen werden. Deshalb stellen wir den Menschen ins Zentrum - mit Empathie, Klarheit und Partizipation. Transformation neu gedacht heißt für uns: weniger PowerPoint, mehr Menschen. Weniger Theorie, mehr gemeinsames Machen.',
       'services.title':'Unsere Leistungen',
-      'services.lead':'Ein maßgeschneiderter Ansatz, um Ihr Unternehmen sicher durch die Herausforderungen und Komplexitäten von Transformationen zu führen. Mit über 30 Jahren Beratungserfahrung durften wir den Erfolg vieler Programme mitgestalten – gern auch mit Ihnen.',
+      'services.lead':'Ein maßgeschneiderter Ansatz, um Ihr Unternehmen sicher durch die Herausforderungen und Komplexitäten von Transformationen zu führen. Mit 30 Jahren Beratungserfahrung durften wir den Erfolg vieler Programme mitgestalten – gern auch mit Ihnen.',
       'services.s1.title':'Transformation Programmdesign & Unterstützung',
       'services.s1.desc':'Wir helfen, Ziele und Prioritäten zu schärfen, Programme aufzusetzen und Governance sowie Maßnahmen bis zur Umsetzung zu definieren.',
       'services.s1.li1':'Zielbild & KPIs','services.s1.li2':'Programmdesign & Set‑up','services.s1.li3':'Mobilisierung der Organisation','services.s1.li4':'Steuerung & Fortschrittsmessung','services.s1.li5':'Projektmanagement',
@@ -13,8 +13,8 @@
       'services.s3.title':'Organisation – Design & Implementierung','services.s3.desc':'Strukturen schaffen, die Wert schaffen – passgenau und zukunftssicher.','services.s3.li1':'Organisations‑Redesign','services.s3.li2':'Prozessoptimierung','services.s3.li3':'Implementierungsunterstützung',
       'services.s4.title':'Effizienzsteigerung & Kostenreduktion','services.s4.desc':'Wettbewerbsfähigkeit erhöhen – durch höhere Effizienz und geringere Kosten.','services.s4.li1':'Zielsetzung','services.s4.li2':'Maßnahmendefinition','services.s4.li3':'Umsetzungsbegleitung','services.s4.li4':'Programmsteuerung',
       'services.s5.title':'M&A‑Strategie & Implementierung','services.s5.desc':'Gezielte, wirkungsvolle M&A – von der Idee bis zur Integration.','services.s5.li1':'Target‑Identifikation','services.s5.li2':'Due‑Diligence‑Unterstützung','services.s5.li3':'Pre‑ & Post‑Merger‑Unterstützung',
-      'about.title':'Über',
-      'about.text':'Engagement für Ihren Transformationserfolg.<br><br>Klaus Müller Advisory verfügt über die Fähigkeiten, um Sie sicher durch komplexe Transformationen zu führen – von strategischen Neuausrichtungen bis zu Effizienzsteigerungen. Klaus Müller ist seit über 30 Jahren Unternehmensberater, davon über 15 Jahre als Partner bei Roland Berger sowie der Implement Consulting Group. Er hat zahlreiche Unternehmen in unterschiedlichen Branchen bei der Erreichung ihrer Transformationsziele begleitet – stets partnerschaftlich und ergebnisorientiert.<br><br>Regelmäßige Publikationen; 2023 unter den Top‑10 M&A‑Beratern weltweit ausgezeichnet.',
+      'about.title':'Über uns',
+      'about.text':'Engagement für Ihren Transformationserfolg.<br><br>Klaus Müller Advisory verfügt über die Fähigkeiten, um Sie sicher durch komplexe Transformationen zu führen – von strategischen Neuausrichtungen bis zu Effizienzsteigerungen. Klaus Müller ist seit 30 Jahren Unternehmensberater, davon über 15 Jahre als Partner bei Roland Berger sowie der Implement Consulting Group. Er hat zahlreiche Unternehmen in unterschiedlichen Branchen bei der Erreichung ihrer Transformationsziele begleitet – stets partnerschaftlich und ergebnisorientiert.<br><br>Regelmäßige Publikationen; 2023 unter den Top‑10 M&A‑Beratern weltweit ausgezeichnet.',
       'about.k1':'30+ Jahre Erfahrung','about.k2':'Top‑10 M&A‑Berater 2023','about.k3':'Partner bei Roland Berger & Implement',
       'contact.title':'Kontakt aufnehmen','contact.namePh':'Ihr Name','contact.mailPh':'Ihre E‑Mail','contact.msgPh':'Ihre Nachricht','contact.send':'Senden',
       'footer.legal':'Rechtliches','footer.connect':'Kontakt',
@@ -27,20 +27,20 @@
       'form.error.fields':'Bitte prüfen Sie die markierten Felder.'
     },
     en: {
-      'nav.home':'Home','nav.about':'About','nav.services':'Our Services','nav.contact':'Contact','nav.imprint':'Imprint','nav.privacy':'Privacy Policy',
+      'nav.home':'Home','nav.about':'About us','nav.services':'Our Services','nav.contact':'Contact','nav.imprint':'Imprint','nav.privacy':'Privacy Policy',
       'hero.title':'Transformation consulting reimagined',
-      'hero.text':'Your vision matters to us. We clarify your needs and deliver tailored solutions. With a unique combination of strategic thinking and over 30 years of experience in management consulting, we support you in navigating complex transformations – pragmatic, creative, and with measurable results. We believe that transformations are only successful when driven by people. That’s why we put people at the center – with empathy, clarity, and participation. For us, reimagining transformation means: less PowerPoint, more people. Less theory, more doing together.',
+      'hero.text':'Your vision matters to us. We clarify your needs and deliver tailored solutions. With a unique combination of strategic thinking and 30 years of experience in management consulting, we support you in navigating complex transformations – pragmatic, creative, and with measurable results. We believe that transformations are only successful when driven by people. That’s why we put people at the center – with empathy, clarity, and participation. For us, reimagining transformation means: less PowerPoint, more people. Less theory, more doing together.',
       'services.title':'Our Services',
-      'services.lead':'A tailored approach to guide your company through the challenges and complexities of transformation. With more than 30 years of consulting experience, we have contributed to the success of many programmes — we would love to be your partner.',
+      'services.lead':'A tailored approach to guide your company through the challenges and complexities of transformation. With 30 years of consulting experience, we have contributed to the success of many programmes - we would love to be your partner.',
       'services.s1.title':'Transformation programme design & support',
       'services.s1.desc':'We sharpen objectives and priorities, set up the programme and its governance, and define measures through to implementation.',
       'services.s1.li1':'Goal setting & KPIs','services.s1.li2':'Programme design & set‑up','services.s1.li3':'Organisational mobilisation','services.s1.li4':'Steering & progress tracking','services.s1.li5':'Project management',
-      'services.s2.title':'Strategy definition & implementation','services.s2.desc':'Co‑creating winning strategies — and making them succeed.','services.s2.li1':'Strategy review','services.s2.li2':'Strategy design','services.s2.li3':'Deriving strategic initiatives','services.s2.li4':'Implementation support',
-      'services.s3.title':'Organisational design & implementation','services.s3.desc':'Designing organisations that are fit for purpose — and help you win.','services.s3.li1':'Organisational redesign','services.s3.li2':'Process optimisation','services.s3.li3':'Implementation support',
+      'services.s2.title':'Strategy definition & implementation','services.s2.desc':'Co‑creating winning strategies - and making them succeed.','services.s2.li1':'Strategy review','services.s2.li2':'Strategy design','services.s2.li3':'Deriving strategic initiatives','services.s2.li4':'Implementation support',
+      'services.s3.title':'Organisational design & implementation','services.s3.desc':'Designing organisations that are fit for purpose - and help you win.','services.s3.li1':'Organisational redesign','services.s3.li2':'Process optimisation','services.s3.li3':'Implementation support',
       'services.s4.title':'Efficiency improvement & cost reduction','services.s4.desc':'Boosting competitiveness through greater efficiency and lower cost.','services.s4.li1':'Target setting','services.s4.li2':'Measure definition','services.s4.li3':'Implementation support','services.s4.li4':'Programme steering',
       'services.s5.title':'M&A strategy & implementation support','services.s5.desc':'Helping companies excel through targeted and effective M&A.','services.s5.li1':'Target identification','services.s5.li2':'Due‑diligence support','services.s5.li3':'Pre‑ and post‑merger support',
-      'about.title':'About',
-      'about.text':'Committed to your transformation success.<br><br>Klaus Müller Advisory brings the capabilities required to guide you safely through complex transformations — from strategic realignments to efficiency improvements. Klaus Müller has more than 30 years of consulting experience, including over 15 years as a Partner at Roland Berger and Implement Consulting Group. He has supported numerous companies across industries in achieving their transformation goals — always in a collaborative and results‑oriented way.<br><br>Regularly published; ranked among the Top 10 global M&A consultants in 2023.',
+      'about.title':'About us',
+      'about.text':'Committed to your transformation success.<br><br>Klaus Müller Advisory brings the capabilities required to guide you safely through complex transformations - from strategic realignments to efficiency improvements. Klaus Müller has 30 years of consulting experience, including over 15 years as a Partner at Roland Berger and Implement Consulting Group. He has supported numerous companies across industries in achieving their transformation goals - always in a collaborative and results‑oriented way.<br><br>Regularly published; ranked among the Top 10 global M&A consultants in 2023.',
       'about.k1':'30+ years of experience','about.k2':'Top‑10 M&A consultant 2023','about.k3':'Partner at Roland Berger & Implement',
       'contact.title':'Get in touch','contact.namePh':'Your name','contact.mailPh':'Your email','contact.msgPh':'Your message','contact.send':'Send',
       'footer.legal':'Legal','footer.connect':'Contact',
@@ -49,7 +49,7 @@
       'privacy.title':'Privacy Policy',
       'privacy.content':'We process personal data (e.g. name, email address, phone number) that you provide via forms or direct contact.<br><br><strong>Purpose:</strong> Handling enquiries, maintaining client relationships, sending information (only upon request).<br><strong>Disclosure:</strong> No disclosure to third parties unless required by law or necessary to perform a contract.<br><strong>Cookies & tracking:</strong> No marketing cookies. Standard server logs (IP, browser, timestamp) are retained for up to 12 months.<br><strong>Your rights:</strong> Access, rectification, erasure, restriction. Contact: <a href=\"mailto:info@klausmueller.ch\">info@klausmueller.ch</a>.<br><strong>Controller under Swiss data protection law:</strong> Klaus Müller Advisory, Chrummwisstrasse 29, 8700 Küsnacht.',
       'form.success':'Thank you! Your message was sent successfully. We will get back to you shortly.',
-      'form.error':'Sorry—something went wrong. Please try again later.',
+      'form.error':'Sorry-something went wrong. Please try again later.',
       'form.error.fields':'Please check the highlighted fields.'
     }
   };
@@ -128,3 +128,19 @@
     }
   });
 })();
+
+
+// === Fade-in on scroll ===
+document.addEventListener("DOMContentLoaded", () => {
+  const faders = document.querySelectorAll('.fade-in-section');
+  const observer = new IntersectionObserver((entries, obs) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+        obs.unobserve(entry.target); // animate only once
+      }
+    });
+  }, { threshold: 0.2 });
+
+  faders.forEach(el => observer.observe(el));
+});

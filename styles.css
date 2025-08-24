@@ -144,3 +144,342 @@ section{scroll-margin-top:140px}
     grid-template-columns:1fr 0.8fr;
   }
 }
+
+
+/* === Modern typographic refresh & logo sizing overrides === */
+
+/* Base type scale */
+:root{
+  --fs-body: 18px;
+  --lh-body: 1.6;
+  --fs-h2: 32px;
+  --fs-h3: 24px;
+}
+
+/* Body & common text */
+body{font-size:var(--fs-body); line-height:var(--lh-body);}
+
+/* Section titles and headings */
+.section-title{font-size:var(--fs-h2);}
+.service-title, h3{font-size:var(--fs-h3);}
+
+/* Unify paragraph & list sizes across main sections */
+p,
+.hero-text,
+.service-desc,
+.about-text,
+.service-text li{font-size:var(--fs-body); line-height:var(--lh-body);}
+
+/* Header logo bigger (keeps proportions) */
+.brand-logo,
+.header-logo img{height:60px; width:auto; object-fit:contain;}
+
+/* Footer logo bigger (keeps proportions) */
+.footer-brand img,
+.footer-logo img{height:70px; width:auto; object-fit:contain;}
+
+/* Responsive fine-tuning for small screens */
+@media (max-width: 480px){
+  :root{
+    --fs-body: 17px;
+    --fs-h2: 28px;
+    --fs-h3: 22px;
+  }
+  .brand-logo,
+  .header-logo img{height:48px;}
+  .footer-brand img,
+  .footer-logo img{height:60px;}
+}
+
+
+/* === Spacing adjustments & bigger logos === */
+
+/* Section spacing unified */
+section{padding:80px 0;}
+@media(max-width:768px){
+  section{padding:60px 0;}
+}
+
+/* Larger logos */
+.brand-logo,
+.header-logo img{height:72px; width:auto; object-fit:contain;}
+.footer-brand img,
+.footer-logo img{height:85px; width:auto; object-fit:contain;}
+
+/* Responsive tweak */
+@media(max-width:480px){
+  .brand-logo,
+  .header-logo img{height:56px;}
+  .footer-brand img,
+  .footer-logo img{height:72px;}
+}
+
+/* CTA button styling */
+.button, .btn, .cta-button{
+  background: linear-gradient(135deg,#005a9c,#007acc);
+  color:#fff;
+  padding:14px 28px;
+  font-size:18px;
+  font-weight:600;
+  border-radius:8px;
+  transition:background .3s ease, transform .2s ease;
+}
+.button:hover, .btn:hover, .cta-button:hover{
+  background: linear-gradient(135deg,#007acc,#0094e0);
+  transform:translateY(-2px);
+}
+
+
+/* === Updated CTA buttons with rounded pill shape and arrow === */
+.button, .btn, .cta-button{
+  background: linear-gradient(135deg,#005a9c,#007acc);
+  color:#fff;
+  padding:14px 32px 14px 28px;
+  font-size:18px;
+  font-weight:600;
+  border-radius:999px;
+  transition:background .3s ease, transform .2s ease;
+  display:inline-flex;
+  align-items:center;
+  gap:8px;
+}
+.button::after, .btn::after, .cta-button::after{
+  content:"→";
+  font-size:20px;
+}
+.button:hover, .btn:hover, .cta-button:hover{
+  background: linear-gradient(135deg,#007acc,#0094e0);
+  transform:translateY(-2px);
+}
+
+
+/* === FadeInUp animation for sections === */
+.fade-in-section {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+  will-change: opacity, transform;
+}
+.fade-in-section.visible {
+  opacity: 1;
+  transform: none;
+}
+
+
+/* === Offset for fixed header when using anchor links === */
+section {
+  scroll-margin-top: 100px;
+}
+@media(max-width:768px){
+  section {
+    scroll-margin-top: 70px;
+  }
+}
+
+
+/* === Adjusted padding for sections to move content slightly up === */
+section {
+  padding: 70px 0;
+}
+@media(max-width:768px){
+  section {
+    padding: 60px 0;
+  }
+}
+
+
+/* === Further adjust padding for sections === */
+section {
+  padding: 60px 0;
+}
+@media(max-width:768px){
+  section {
+    padding: 50px 0;
+  }
+}
+
+/* === Compact footer === */
+footer {
+  padding: 30px 0;
+}
+footer .footer-top {
+  margin-bottom: 20px;
+}
+
+
+/* === Footer text refinement === */
+footer {
+  font-size: 0.9rem;
+  color: #e0e0e0;
+}
+footer .footer-bottom {
+  text-align: center;
+  margin-top: 10px;
+}
+.footer-copyright {
+  font-size: 0.8rem;
+  color: #aaa;
+}
+
+
+/* === Footer 3-column layout === */
+.footer-3col {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  text-align: left;
+  margin-top: 20px;
+}
+.footer-3col .footer-left,
+.footer-3col .footer-center,
+.footer-3col .footer-right {
+  flex: 1;
+}
+.footer-3col .footer-right {
+  text-align: right;
+  font-size: 0.8rem;
+  color: #aaa;
+}
+.footer-3col h4 {
+  margin-bottom: 8px;
+  font-size: 0.95rem;
+  color: #fff;
+}
+.footer-3col a {
+  display: block;
+  color: #e0e0e0;
+  font-size: 0.9rem;
+  text-decoration: none;
+  margin-bottom: 4px;
+}
+.footer-3col a:hover {
+  text-decoration: underline;
+}
+@media(max-width:768px){
+  .footer-3col {
+    flex-direction: column;
+    text-align: center;
+  }
+  .footer-3col .footer-right {
+    text-align: center;
+    margin-top: 10px;
+  }
+}
+
+
+/* === Compact & aligned footer layout fix === */
+footer{padding:24px 0 18px;}
+footer .footer-top{margin-bottom:16px;}
+.footer-bottom.compact-layout{
+  display:flex;
+  justify-content:space-between;
+  align-items:flex-start;
+  gap:32px;
+}
+.footer-bottom.compact-layout .footer-cols{
+  display:flex;
+  gap:48px;
+}
+.footer-bottom.compact-layout .footer-col h4{
+  margin:0 0 8px;
+  font-size:0.95rem;
+  color:#ffffff;
+}
+.footer-bottom.compact-layout .footer-col a{
+  display:block;
+  color:#e0e0e0;
+  font-size:0.9rem;
+  text-decoration:none;
+  margin:4px 0;
+}
+.footer-bottom.compact-layout .footer-col a:hover{ text-decoration:underline; }
+.footer-bottom.compact-layout .footer-copy{
+  margin-left:auto;
+  align-self:flex-end;
+  font-size:0.85rem;
+  color:#aab0b7;
+  white-space:nowrap;
+}
+
+/* Mobile stacking */
+@media(max-width: 768px){
+  .footer-bottom.compact-layout{
+    flex-direction:column;
+    align-items:center;
+    gap:12px;
+  }
+  .footer-bottom.compact-layout .footer-cols{
+    gap:24px;
+  }
+  .footer-bottom.compact-layout .footer-copy{
+    align-self:center;
+    margin-left:0;
+  }
+}
+
+
+/* === Horizontal footer row (Logo → Rechtliches → Kontakt → © 2025 Klaus Müller Advisory) === */
+.site-footer{background:#0a1f33;color:#eaf2f7;padding:24px 0;margin-top:96px}
+.footer-row{display:flex;align-items:center;gap:32px;justify-content:space-between;flex-wrap:wrap}
+.footer-logo img{height:64px;width:auto;object-fit:contain}
+.footer-legal,.footer-contact{display:flex;gap:16px}
+.footer-legal a,.footer-contact a{color:#dce3ea;text-decoration:none}
+.footer-legal a:hover,.footer-contact a:hover{color:#ffffff;text-decoration:underline}
+.footer-copy{margin-left:auto;white-space:nowrap;opacity:.85}
+@media(max-width:680px){
+  .footer-row{justify-content:center}
+  .footer-copy{margin-left:0}
+}
+
+
+/* === Horizontal footer row (Logo → Legal → Contact → Copy) === */
+.site-footer {
+  background: #0a1f33;
+  color: #eaf2f7;
+  padding: 12px 0;
+  margin-top: 96px;
+}
+
+.footer-row {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-logo img {
+  height: 64px;
+  width: auto;
+  object-fit: contain;
+}
+
+.footer-legal, .footer-contact {
+  display: flex;
+  gap: 16px;
+}
+
+.footer-legal a, .footer-contact a {
+  color: #dce3ea;
+  text-decoration: none;
+}
+
+.footer-legal a:hover, .footer-contact a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.footer-copy {
+  margin-left: auto;
+  white-space: nowrap;
+  opacity: .85;
+}
+
+@media (max-width: 680px) {
+  .footer-row {
+    justify-content: center;
+  }
+  .footer-copy {
+    margin-left: 0;
+  }
+}
