@@ -242,7 +242,7 @@ section{padding:80px 0;}
   align-items: center;
   justify-content: center;
   min-width: 60px;
-  background: linear-gradient(135deg,#005a9c,#007acc);
+  background: linear-gradient(135deg, #0b3a60, #146da8);
   color:#fff;
   padding:14px 32px 14px 28px;
   font-size:18px;
@@ -258,7 +258,7 @@ section{padding:80px 0;}
   font-size:20px;
 }
 .button:hover, .btn:hover, .cta-button:hover{
-  background: linear-gradient(135deg,#007acc,#0094e0);
+  background: linear-gradient(135deg, #12486f, #1c75a3);
   transform:translateY(-2px);
 }
 
