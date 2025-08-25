@@ -84,6 +84,9 @@
     const btn = document.getElementById('langToggle');
     if(btn){ btn.addEventListener('click', ()=>{ lang = (lang==='de')?'en':'de'; setLang(lang); applyI18n(); }); }
 
+
+    document.title = "Klaus Müller Advisory";
+
     // Sticky header shadow toggle
     const header = document.querySelector('.site-header');
     window.addEventListener('scroll', ()=>{
