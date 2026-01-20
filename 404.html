@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>404 - Seite nicht gefunden | Klaus Müller Advisory</title>
+  <meta name="description" content="Die angeforderte Seite konnte nicht gefunden werden.">
+  
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://klausmueller.ch/404.html" />
+  
+  <!-- Favicons -->
+  <link rel="icon" type="image/x-icon" href="LogoMini.ico">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="48x48" href="favicon-48x48.png">
+  
+  <!-- Apple Touch Icon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+  
+  <!-- Theme Colors -->
+  <meta name="theme-color" content="#ffffff">
+  
+  <style>
+    :root {
+      --primary: #0b3a60;
+      --primary-700: #0a2e4b;
+      --accent: #00a0c8;
+      --text: #0f172a;
+      --muted: #64748b;
+      --bg: #ffffff;
+      --muted-bg: #f7fafc;
+      --border: #e2e8f0;
+      --shadow: 0 4px 20px rgba(2, 8, 20, .06);
+    }
+    
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    
+    html, body {
+      height: 100%;
+      width: 100%;
+    }
+    
+    body {
+      font-family: Inter, system-ui, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+      color: var(--text);
+      background: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0;
+      overflow: hidden;
+    }
+    
+    .error-container {
+      max-width: 680px;
+      width: 100%;
+      text-align: center;
+      background: white;
+      padding: 64px 48px;
+      border-radius: 0;
+      box-shadow: none;
+      position: relative;
+      animation: fadeInUp 0.8s ease-out;
+    }
+    
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    
+    .logo-wrapper {
+      margin-bottom: 32px;
+    }
+    
+    .logo-link {
+      display: inline-block;
+      text-decoration: none;
+      transition: opacity 0.3s ease;
+    }
+    
+    .logo-link:hover {
+      opacity: 0.8;
+      cursor: pointer;
+    }
+    
+    .logo {
+      width: 180px;
+      height: auto;
+      max-width: 100%;
+      filter: none;
+      opacity: 1;
+    }
+    
+    .error-code {
+      font-size: 120px;
+      font-weight: 900;
+      background: linear-gradient(135deg, var(--primary) 0%, var(--accent) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      line-height: 1;
+      margin-bottom: 16px;
+      animation: pulse 2s ease-in-out infinite;
+    }
+    
+    @keyframes pulse {
+      0%, 100% {
+        opacity: 1;
+      }
+      50% {
+        opacity: 0.85;
+      }
+    }
+    
+    h1 {
+      font-size: 32px;
+      color: var(--primary);
+      margin-bottom: 16px;
+      font-weight: 700;
+    }
+    
+    .error-message {
+      font-size: 18px;
+      color: var(--muted);
+      line-height: 1.6;
+      margin-bottom: 40px;
+    }
+    
+    .btn-home {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      background: linear-gradient(135deg, var(--primary), #146da8);
+      color: white;
+      padding: 16px 36px;
+      border-radius: 999px;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 18px;
+      transition: all 0.3s ease;
+      box-shadow: 0 8px 20px rgba(11, 58, 96, 0.2);
+    }
+    
+    .btn-home:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 12px 28px rgba(11, 58, 96, 0.3);
+      background: linear-gradient(135deg, #12486f, #1c75a3);
+    }
+    
+    .btn-home::after {
+      content: "→";
+      font-size: 20px;
+      transition: transform 0.3s ease;
+    }
+    
+    .btn-home:hover::after {
+      transform: translateX(4px);
+    }
+    
+    
+    @media (max-width: 768px) {
+      .error-container {
+        padding: 48px 32px;
+      }
+      
+      .error-code {
+        font-size: 80px;
+      }
+      
+      h1 {
+        font-size: 26px;
+      }
+      
+      .error-message {
+        font-size: 16px;
+      }
+      
+      .btn-home {
+        font-size: 16px;
+        padding: 14px 28px;
+      }
+      
+      .logo {
+        width: 140px;
+      }
+    }
+    
+    @media (max-width: 480px) {
+      .error-container {
+        padding: 36px 24px;
+      }
+      
+      .error-code {
+        font-size: 64px;
+      }
+      
+      h1 {
+        font-size: 22px;
+      }
+      
+      .logo {
+        width: 120px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="error-container">
+    <div class="logo-wrapper">
+      <a href="index.html" class="logo-link" aria-label="Zurück zur Startseite">
+        <img src="Logo.jpg" alt="Klaus Müller Advisory Logo" class="logo">
+      </a>
+    </div>
+    
+    <div class="error-code">404</div>
+    
+    <h1>Seite nicht gefunden</h1>
+    
+    <p class="error-message">
+      Die von Ihnen gesuchte Seite existiert leider nicht oder wurde verschoben.<br>
+      Kein Problem – wir helfen Ihnen gerne weiter.
+    </p>
+    
+    <a href="index.html" class="btn-home">Zurück zur Startseite</a>
+  </div>
+</body>
+</html>
